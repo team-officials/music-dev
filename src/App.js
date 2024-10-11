@@ -9,9 +9,10 @@ import Login from '../src/components/navbar/Login';
 function App() {
   return (
     <BrowserRouter>
-      <Login />
+      
       <NavBar />
       <Routes>
+        <Route path="/" element={<Login />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/myView" element={<MyView />} />
       </Routes>
