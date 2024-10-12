@@ -23,7 +23,7 @@ const Login = () => {
         setLoading(true);
         setTimeout(() => {
             setLoading(false);  // Hide loader
-            navigate('/Myview');  // Redirect to "viewplay" page
+            navigate('/home');  // Redirect to "viewplay" page
         }, 5000);  // 5 seconds loader
     };
 

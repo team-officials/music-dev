@@ -11,13 +11,15 @@ const MyView = () => {
 
   return (
     <section className="bg-white dark:bg-gray-900">
-      <div className=" max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 flex">
-        
-        <div className="lg:col-span-5 flex justify-center lg:justify-start mb-6 lg:mb-0 flex-1 ">
-          <img className="sm:w-9/12 sm:h-full" src={alanImg} alt="Alan Jackson" />
+      <div className="max-w-screen-xl md:max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 flex">
+
+
+        <div className="lg:col-span-5 flex justify-center lg:justify-start mb-6 lg:mb-0 flex-1">
+          <img className="hidden lg:block rounded-lg sm:w-9/12 sm:h-full" src={alanImg} alt="Alan Jackson" />
         </div>
 
-        <div className="mr-auto place-self-center lg:col-span-7 flex-1 ">
+        {/* First Song Details */}
+        <div className=" place-self-center lg:col-span-7 flex-1">
           <div className="p-3 flex gap-2">
             <span className="font-bold text-2xl text-white">Title:</span>
             <h1 className="mt-[6px] text-white">Strangers that Become Lovers</h1>
@@ -47,8 +49,9 @@ const MyView = () => {
           </div>
         </div>
 
-        <div className="mr-auto place-self-center lg:col-span-7 flex-1 ">
-          <div className="p-3 flex gap-2 flex-1 ">
+        {/* Second Song Details */}
+        <div className="mr-auto place-self-center lg:col-span-7 flex-1">
+          <div className="p-3 flex gap-2">
             <span className="font-bold text-2xl text-white">Title:</span>
             <h1 className="mt-[6px] text-white">Love Heals Broken Heart</h1>
             <div className="flex items-center mt-2">
@@ -76,7 +79,6 @@ const MyView = () => {
             </a>
           </div>
         </div>
-
 
       </div>
     </section>

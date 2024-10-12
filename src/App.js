@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<Login />} />
        
         <Route path="/myView" element={<MyView />} />
+        <Route path="/home" element={<HomePage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
