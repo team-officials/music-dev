@@ -90,7 +90,7 @@ const HomePage = () => {
                 </div>
 
                 <div class="bg-blue-100 border-t border-b mt-3 lg:mt-24 border-blue-500 text-blue-700 px-4 py-3" role="alert">
-                    <p class="font-bold">Alan Jackson Full Album</p>
+                    <p class="font-bold">Complete albums by Alan Jackson.</p>
                     <p class="text-sm">Cost: $3000.00 </p>
                     <FaFolder size={50} color="blue" />
                 </div>
