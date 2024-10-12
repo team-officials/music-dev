@@ -9,11 +9,12 @@ import Login from '../src/components/navbar/Login';
 function App() {
   return (
     <BrowserRouter>
-      
+      {/* You can conditionally render the Navbar and Footer based on the location */}
       <NavBar />
       <Routes>
+        {/* Define routes here */}
         <Route path="/" element={<Login />} />
-        <Route path="/home" element={<HomePage />} />
+       
         <Route path="/myView" element={<MyView />} />
       </Routes>
       <Footer />

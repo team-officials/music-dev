@@ -40,9 +40,9 @@ const Login = () => {
                 </div>
 
                 <div className="w-full p-8 lg:w-1/2">
-                    <h2 className="text-2xl font-semibold text-gray-700 text-center">Welcome back!</h2>
-                    <h1 className="text-xl text-gray-600 text-center">TO</h1>
-                    <p className="text-xl text-gray-600 text-center">Alan Jackson</p>
+                    <h2 className="text-2xl font-semibold text-gray-700 text-center">  Welcome back!  </h2>
+                    <h1 className="text-xl text-gray-600 text-center">To</h1>
+                    <p className="text-xl text-gray-600 text-center">the Alan Jackson catalog!</p>
 
                     {/* Divider */}
                     <div className="mt-4 flex items-center justify-between">
